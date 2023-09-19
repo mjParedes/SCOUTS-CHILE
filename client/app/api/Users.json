@@ -1,0 +1,19 @@
+{
+  "Users": [
+    {
+      "name": "<NAME>",
+      "lastName": "lastName",
+      "email": "<EMAIL>"
+    },
+    {
+      "name": "<NAME>",
+      "lastName": "lastName",
+      "email": "<EMAIL>"
+    },
+    {
+      "name": "<NAME>",
+      "lastName": "lastName",
+      "email": "<EMAIL>"
+    }
+  ]
+}
