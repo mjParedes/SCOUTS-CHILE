@@ -1,5 +1,5 @@
 
-import TestForm from '@/components/testForm/TestForm'
+import TestForm from '@/components/TestForm/TestForm'
 import Image from 'next/image'
 
 export default function Home() {

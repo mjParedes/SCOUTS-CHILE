@@ -1,7 +1,9 @@
 "use client";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+
+
 
 export default function TestForm() {
   const [vocationScores, setVocationScores] = useState({
@@ -11,6 +13,8 @@ export default function TestForm() {
     vocacion4: 0,
     vocacion5: 0,
   });
+
+  
 
   const initialValues = {
     questions: [
@@ -31,7 +35,8 @@ export default function TestForm() {
 
   const answerScores = {
     question0: {
-      Sí: { vocacion1: 2 },
+      type: "ratio",
+      Sí: { vocacion1: 2, vocacion5: 3, vocacion3: 1 },
       No: { vocacion2: 1 },
       "Me da igual": { vocacion3: 1 },
     },
@@ -41,11 +46,10 @@ export default function TestForm() {
       "Me da igual": { vocacion3: 2 },
     },
     question2: {
-      Sí: { vocacion1: 0 },
+      Sí: { vocacion1: 3 },
       No: { vocacion2: 0 },
       "Me da igual": { vocacion3: 1 },
     },
-    
   };
 
   const validationSchema = Yup.object().shape({
@@ -92,11 +96,12 @@ export default function TestForm() {
 
   return (
     <form onSubmit={formik.handleSubmit}>
-      <h2 className='text-4xl font-bold text-red-300'>I'm vocational test</h2>
+      <h2 className="text-4xl font-bold text-red-300">I'm vocational test</h2>
 
       {formik.values.questions.map((question, index) => (
         <div className="flex flex-col" key={index}>
           <label htmlFor={`question${index}`}>{question.text}</label>
+
           <input
             type="radio"
             id={`yes${index}`}
