@@ -14,7 +14,7 @@ export default function TestForm() {
     vocacion5: 0,
   });
 
-  
+
 
   const initialValues = {
     questions: [
@@ -96,7 +96,7 @@ export default function TestForm() {
 
   return (
     <form onSubmit={formik.handleSubmit}>
-      <h2 className="text-4xl font-bold text-red-300">I'm vocational test</h2>
+      <h2 className="text-4xl font-bold text-red-300">Iam vocational test</h2>
 
       {formik.values.questions.map((question, index) => (
         <div className="flex flex-col" key={index}>
