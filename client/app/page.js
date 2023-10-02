@@ -1,7 +1,6 @@
 
 import CustomButton from '@/components/Buttons/CustomButton'
 import CustomCard from '@/components/Cards/CustomCard'
-import Footer from '@/components/Footer/Footer'
 import TestForm from '@/components/testForm/TestForm'
 import teamOne from '@/public/images/EQUIPO-PAZ-3.png'
 
@@ -13,7 +12,6 @@ export default function Home() {
       <CustomCard imageUrl={teamOne} title={'Team One'} />
       <CustomButton title={'Inicio'} />
 
-      <Footer />
     </main>
   )
 }
