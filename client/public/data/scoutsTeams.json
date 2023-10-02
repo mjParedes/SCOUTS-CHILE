@@ -1,0 +1,39 @@
+{
+  "scoutsTeams": [
+    {
+      "name": "Equipo 1",
+      "url": "https://www.ejemplo.com/equipo1",
+      "image": "https://www.ejemplo.com/imagen1.jpg"
+    },
+    {
+      "name": "Equipo 2",
+      "url": "https://www.ejemplo.com/equipo2",
+      "image": "https://www.ejemplo.com/imagen2.jpg"
+    },
+    {
+      "name": "Equipo 3",
+      "url": "https://www.ejemplo.com/equipo3",
+      "image": "https://www.ejemplo.com/imagen3.jpg"
+    },
+    {
+      "name": "Equipo 4",
+      "url": "https://www.ejemplo.com/equipo4",
+      "image": "https://www.ejemplo.com/imagen4.jpg"
+    },
+    {
+      "name": "Equipo 5",
+      "url": "https://www.ejemplo.com/equipo5",
+      "image": "https://www.ejemplo.com/imagen5.jpg"
+    },
+    {
+      "name": "Equipo 6",
+      "url": "https://www.ejemplo.com/equipo6",
+      "image": "https://www.ejemplo.com/imagen6.jpg"
+    },
+    {
+      "name": "Equipo 7",
+      "url": "https://www.ejemplo.com/equipo7",
+      "image": "https://www.ejemplo.com/imagen7.jpg"
+    }
+  ]
+}
